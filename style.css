@@ -6,70 +6,50 @@
 
 body {
     margin: 0;
+
     padding: 0;
     width: 100%;
     height: 100vh;
+
     overflow-x: hidden;
 }
 
-ul {
-    list-style-type: none;
-}
+img {
+    width: 250px;
+    height: 500px;
 
-a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
 }
-
-/* display-flex
-flex-direction: column; 
-flex-wrap:wrap;*/
 
 .Grid {
     display: grid;
-    /* grid-auto-flow: row; */
-    /* gap: 1rem;
-    grid-template-columns: repeat(3, 1fr); */
-}
-
-
-
-
-
-
-/* .navbar1 {
-    background-color: yellow;
-    padding: 1rem;
-}
-
-.navbar1 ul {
-    display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.navbar1 ul li {
-    background-color: black;
-
-} */
-
-
-
-.navbar2 {
-    padding: 1rem;
+h1 {
+    text-align: center;
+    font-size: 15rem;
 }
 
-.navbar2 .content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 3rem;
+
+
+
+
+@media (min-width:300px) {
+    body {
+        background-color: pink;
+    }
 }
 
-.navbar2 .content ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+@media (min-width:600px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+
+@media (min-width:900px) {
+    body {
+        background-color: red;
+    }
 }
