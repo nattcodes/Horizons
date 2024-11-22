@@ -1,39 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-
-    width: 100%;
-    height: 100vh;
-
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-h1 {
-    color: red;
-    text-align: center;
-    font-size: 4rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
 }
-
-p {
-    background-color: yellow;
-    font-size: 2rem;
-}
-
-img {
-    width: 100px;
-    height: 150px;
-}
-
-/* 
-- Text Styling
-  - Color
-  - Font-size
-  - Text-align
-  - Font-family
-- Background
-  - Background-color
-  - Background-image
-- Box Model
-
-  - Padding
-  - Border
-  - Margin
- */
