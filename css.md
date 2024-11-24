@@ -62,7 +62,7 @@
 
 8. **CSS Best Practices**
    - DRY Principle
-   - Use External Stylesheets
+   <!-- - Use External Stylesheets -->
    - Descriptive Class Names
    - Use Shorthand Properties
 
