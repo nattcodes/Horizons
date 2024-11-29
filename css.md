@@ -37,11 +37,14 @@
 
 - Display Property
 - Positioning
+
   - Static
   - Relative
   - Absolute
   - Fixed
-- sticky
+
+- Sticky
+
 - Flexbox Layout
 - Grid
 
