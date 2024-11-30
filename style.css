@@ -1,18 +1,49 @@
+@import url(https://db.onlinewebfonts.com/c/cec88e5a4cf367c4620cd23c5a184439?family=PolySans+Median);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* -----desktop----- */
 body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: PolySans Median;
 }
 
 ul {
   list-style-type: none;
+}
+
+/* when dealing with max-width target the highest px first */
+@media (max-width: 900px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 400px) {}
+
+
+/* when dealing with min-width target the lowest px first */
+
+@media (min-width: 400px) {
+  body {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: purple;
+  }
+}
+
+@media (min-width: 900px) {
+  body {
+      background-color: aqua;
+    }
 }
