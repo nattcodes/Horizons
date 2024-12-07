@@ -6,44 +6,45 @@
   box-sizing: border-box;
 }
 
-/* -----desktop----- */
 body {
+
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: PolySans Median;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
-/* when dealing with max-width target the highest px first */
-@media (max-width: 900px) {}
-
-@media (max-width: 600px) {}
-
-@media (max-width: 400px) {}
-
-
-/* when dealing with min-width target the lowest px first */
-
-@media (min-width: 400px) {
-  body {
-    background-color: pink;
-  }
+a {
+  text-decoration: none;
+  color: black;
 }
 
-@media (min-width: 600px) {
-  body {
-    background-color: purple;
-  }
+.navbar {
+
+  padding: 1rem;
 }
 
-@media (min-width: 900px) {
-  body {
-      background-color: aqua;
-    }
+.navbar ul {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  position: sticky;
+  top: 0%;
+}
+
+h2 {
+  background-color: yellow;
+}
+
+p {
+  border: 2px solid black;
 }
