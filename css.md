@@ -35,16 +35,15 @@
   - Border
   - Margin
 
-- Display Property
 - Positioning
 
   - Static
   - Relative
   - Absolute
   - Fixed
-
 - Sticky
 
+- Display Property
 - Flexbox Layout
 - Grid
 
@@ -69,8 +68,9 @@
    - Descriptive Class Names
    - Use Shorthand Properties
 
-**Introduction to CSS**
-CSS (Cascading Style Sheets) is used to control the presentation and layout of web pages. While HTML structures the content, CSS styles it, such as adding colors, spacing, and fonts.
+**Introduction to CSS** CSS (Cascading Style Sheets) is used to control the
+presentation and layout of web pages. While HTML structures the content, CSS
+styles it, such as adding colors, spacing, and fonts.
 
 Basic Structure of a CSS File
 
@@ -102,15 +102,15 @@ In this example:
 
 There are three ways to include CSS in an HTML document.
 
-1.  **Inline CSS**
-    You can apply CSS directly within an HTML element using the `style` attribute.
+1. **Inline CSS** You can apply CSS directly within an HTML element using the
+   `style` attribute.
 
 ```html
-<p style="color: red;">This is a red paragraph.</p>
+<p style="color: red">This is a red paragraph.</p>
 ```
 
-2.  **Internal CSS**
-    Defined within the `<style>` tag inside the `<head>` section of an HTML document.
+2. **Internal CSS** Defined within the `<style>` tag inside the `<head>` section
+   of an HTML document.
 
 ```html
 <!DOCTYPE html>
@@ -129,8 +129,8 @@ There are three ways to include CSS in an HTML document.
 </html>
 ```
 
-3.  **External CSS**
-    Link an external `.css` file using the `<link>` tag inside the `<head>` section.
+3. **External CSS** Link an external `.css` file using the `<link>` tag inside
+   the `<head>` section.
 
 ```html
 <!-- HTML File -->
@@ -157,10 +157,10 @@ p {
 
 **CSS Selectors**
 
-Selectors are used to target the HTML elements you want to style. Below are the most common selectors:
+Selectors are used to target the HTML elements you want to style. Below are the
+most common selectors:
 
-1.  **Element Selector**
-    Selects all instances of a specific HTML element.
+1. **Element Selector** Selects all instances of a specific HTML element.
 
 ```css
 h1 {
@@ -168,8 +168,8 @@ h1 {
 }
 ```
 
-2.  **Class Selector**
-    Selects all elements with a specific class. Classes are defined with a period `.` before the class name.
+2. **Class Selector** Selects all elements with a specific class. Classes are
+   defined with a period `.` before the class name.
 
 ```html
 <p class="intro">This is a paragraph with class selector.</p>
@@ -181,8 +181,8 @@ h1 {
 }
 ```
 
-3.  **ID Selector**
-    Selects an element with a specific ID. IDs are defined with a hash `` before the ID name.
+3. **ID Selector** Selects an element with a specific ID. IDs are defined with a
+   hash `` before the ID name.
 
 ```html
 <p id="main-text">This is a paragraph with ID selector.</p>
@@ -194,8 +194,8 @@ h1 {
 }
 ```
 
-4.  **Group Selector**
-    You can group multiple selectors by separating them with a comma.
+4. **Group Selector** You can group multiple selectors by separating them with a
+   comma.
 
 ```css
 h1,
@@ -204,8 +204,8 @@ p {
 }
 ```
 
-5.  **Descendant Selector**
-    Selects elements that are nested within another element.
+5. **Descendant Selector** Selects elements that are nested within another
+   element.
 
 ```html
 <div class="container">
@@ -223,7 +223,7 @@ p {
 
 **CSS Properties**
 
-1.  **Text Styling**
+1. **Text Styling**
 
 - **Color**: Sets the text color.
 
@@ -257,7 +257,7 @@ p {
 }
 ```
 
-2.  **Background**
+2. **Background**
 
 - **Background-color**: Sets the background color of an element.
 
@@ -276,11 +276,10 @@ body {
 }
 ```
 
-3.  **Box Model**
-    CSS treats each element as a box, consisting of four parts: content, padding, border, and margin.
+3. **Box Model** CSS treats each element as a box, consisting of four parts:
+   content, padding, border, and margin.
 
-Border
-Creates a border around the element.
+Border Creates a border around the element.
 
 ```css
 p {
@@ -288,8 +287,7 @@ p {
 }
 ```
 
-Padding
-The space between the content and the border.
+Padding The space between the content and the border.
 
 ```css
 p {
@@ -297,8 +295,7 @@ p {
 }
 ```
 
-Margin
-The space outside the border, separating the element from other elements.
+Margin The space outside the border, separating the element from other elements.
 
 ```css
 p {
@@ -316,8 +313,7 @@ div {
 }
 ```
 
-4.  **Width and Height**
-    You can define the width and height of elements.
+4. **Width and Height** You can define the width and height of elements.
 
 ```css
 div {
@@ -326,12 +322,13 @@ div {
 }
 ```
 
-5.  **Display Property**
-    The `display` property controls how an element is displayed on the page.
+5. **Display Property** The `display` property controls how an element is
+   displayed on the page.
 
 - `block`: The element takes up the full width available.
 - `inline`: The element takes up only as much width as needed.
-- `inline-block`: Allows elements to sit next to each other while maintaining the block-like properties.
+- `inline-block`: Allows elements to sit next to each other while maintaining
+  the block-like properties.
 
 ```css
 div {
@@ -342,13 +339,13 @@ span {
 }
 ```
 
-6.  **Positioning**
-    CSS provides different positioning techniques.
+6. **Positioning** CSS provides different positioning techniques.
 
 - **Static (default)**: Elements appear in the normal document flow.
 - **Relative**: Positioned relative to its normal position.
 - **Absolute**: Positioned relative to its nearest positioned ancestor.
-- **Fixed**: Positioned relative to the viewport, stays in the same place even when scrolling.
+- **Fixed**: Positioned relative to the viewport, stays in the same place even
+  when scrolling.
 
 ```css
 div {
@@ -358,8 +355,8 @@ div {
 }
 ```
 
-7.  **Flexbox Layout**
-    Flexbox makes it easy to align and distribute space among items in a container.
+7. **Flexbox Layout** Flexbox makes it easy to align and distribute space among
+   items in a container.
 
 ```css
 .container {
@@ -379,8 +376,8 @@ div {
 
 ---
 
-**CSS Units**
-CSS uses several units to define sizes and lengths. The most common units are:
+**CSS Units** CSS uses several units to define sizes and lengths. The most
+common units are:
 
 - **px**: Pixels (fixed size).
 - **%**: Percentage (relative to the parent element).
@@ -400,8 +397,8 @@ p {
 
 **CSS Pseudo-Classes and Pseudo-Elements**
 
-**Pseudo-Classes**
-Pseudo-classes are used to define the special state of an element. Examples include `:hover`, and `:focus`.
+**Pseudo-Classes** Pseudo-classes are used to define the special state of an
+element. Examples include `:hover`, and `:focus`.
 
 - **:hover**: Style changes when the user hovers over an element.
 
@@ -415,7 +412,8 @@ a:hover {
 
 **CSS Media Queries**
 
-Media queries are used to apply different styles depending on the device or screen size. This is essential for responsive design.
+Media queries are used to apply different styles depending on the device or
+screen size. This is essential for responsive design.
 
 ```css
 @media (max-width: 600px) {
@@ -425,16 +423,21 @@ Media queries are used to apply different styles depending on the device or scre
 }
 ```
 
-In this example, the background color will change to light blue when the screen width is 600px or smaller.
+In this example, the background color will change to light blue when the screen
+width is 600px or smaller.
 
 ---
 
 **CSS Best Practices**
 
-1. **Keep CSS DRY (Don’t Repeat Yourself)**: Reuse styles where possible using classes and grouping selectors.
-2. **Use External Stylesheets**: Keep CSS separate from HTML to ensure clean and maintainable code.
-3. **Use Descriptive Class Names**: Make class names meaningful and easy to understand.
-4. **Use Shorthand Properties**: Combine multiple properties where possible. For example:
+1. **Keep CSS DRY (Don’t Repeat Yourself)**: Reuse styles where possible using
+   classes and grouping selectors.
+2. **Use External Stylesheets**: Keep CSS separate from HTML to ensure clean and
+   maintainable code.
+3. **Use Descriptive Class Names**: Make class names meaningful and easy to
+   understand.
+4. **Use Shorthand Properties**: Combine multiple properties where possible. For
+   example:
    ```css
    margin: 10px 5px 15px 0;
    ```
